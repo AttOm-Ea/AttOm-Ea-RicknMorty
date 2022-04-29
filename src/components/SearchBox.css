@@ -1,0 +1,38 @@
+.contentInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.inputText{
+    background-color: rgba(63, 164, 180, 0.544);
+    width: 90%;
+    height: 40%;
+    color: white;
+    padding-left: .5rem;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+.inputText:hover{
+    background-color: rgba(12, 134, 148, 0.957);
+}
+.inputText:hover::placeholder{
+    text-align: center;
+    color: rgb(79, 247, 247);
+}
+.inputText::placeholder{
+    text-align: center;
+    color: rgb(200, 248, 248);
+}
+.inputText:focus{
+    border: none;
+    outline: none;
+    background-color: rgba(226, 226, 219, 0.898);
+    color: rgb(3, 125, 125);
+}
+.inputText:active{
+    border: none;   
+}
